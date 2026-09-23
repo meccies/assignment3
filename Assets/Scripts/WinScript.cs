@@ -1,12 +1,14 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class WinScript : MonoBehaviour
 {
     public Transform playerTransform;
     public Transform winTransform;
     public float winDistance = 1.5f; // Distance threshold to trigger win condition
-
-    
+    public void LoadInbetweenMeccaAndAbigail( ) {
+        SceneManager.LoadScene("InbetweenMeccaAndAbigail");
+    }
     public bool hasWon = false; // Flag to track if the player has won
 
     private void Update()
@@ -32,7 +34,10 @@ public class WinScript : MonoBehaviour
         hasWon = true; // Set the win flag to true
         Debug.Log("You Win!");
         // You can add additional logic here, such as loading a new scene or displaying a win message
+        LoadInbetweenMeccaAndAbigail();
+    }
+        
     }
 
 
-}
+
