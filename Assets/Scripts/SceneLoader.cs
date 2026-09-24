@@ -11,6 +11,8 @@ public class SceneLoader : MonoBehaviour
         SceneManager.LoadScene("Abigail Scene");
     }
     
-    
+    public void LoadAntonio(){
+        SceneManager.LoadScene("SampleScene");
+    }
     
 }
