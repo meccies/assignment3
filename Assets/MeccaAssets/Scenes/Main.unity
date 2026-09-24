@@ -9988,7 +9988,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::WinPositionCheck
   target: {fileID: 2064976324}
   goal: {fileID: 678075717}
-  winDistance: 4
+  winDistance: 1
   hasWon: 0
 --- !u!114 &2064976318
 MonoBehaviour:
