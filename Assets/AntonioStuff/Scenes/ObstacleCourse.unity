@@ -497,6 +497,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BoxWinTrigger
   playerTag: Player
+  winSceneName: WinScreen
 --- !u!1 &80130983
 GameObject:
   m_ObjectHideFlags: 0
@@ -1208,7 +1209,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CapsuleCameraFollow
   player: {fileID: 1285044048}
-  offset: {x: 0, y: 0.8, z: -6}
+  offset: {x: 0, y: 0.8, z: -7}
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -2324,8 +2325,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2948feea7fbb6a544a6522b4a742eb16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CapsuleMovementScript
-  speed: 6
-  jumpForce: 8
+  speed: 5
+  jumpForce: 7
 --- !u!1 &1297056270
 GameObject:
   m_ObjectHideFlags: 0

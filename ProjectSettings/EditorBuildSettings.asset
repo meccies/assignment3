@@ -21,10 +21,13 @@ EditorBuildSettings:
     path: Assets/Scenes/InbetweenMeccaAndAbigail.unity
     guid: c17a19740b73c8f40819e61469987eb2
   - enabled: 1
-    path: Assets/AntonioStuff/Scenes/SampleScene.unity
+    path: Assets/AntonioStuff/Scenes/ObstacleCourse.unity
     guid: 44177a51134b29f44941892095c85c90
   - enabled: 1
     path: Assets/Scenes/InbetweenMeccaAndAntonio.unity
     guid: 9483112e233753f489368c802a2d71f3
+  - enabled: 1
+    path: Assets/AntonioStuff/Scenes/WinScreen.unity
+    guid: 1d95cf93d46ce154293e998eed38ec30
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}

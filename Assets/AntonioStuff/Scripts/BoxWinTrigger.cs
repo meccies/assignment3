@@ -1,9 +1,13 @@
-using System.Runtime.CompilerServices;
 using UnityEngine;
-using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement; 
+
 public class BoxWinTrigger : MonoBehaviour
 {
     public string playerTag = "Player";
+
+    
+    public string winSceneName = "WinScreen";
+
     private bool hasWon = false;
 
     private void OnTriggerEnter(Collider other)
@@ -14,6 +18,9 @@ public class BoxWinTrigger : MonoBehaviour
         {
             hasWon = true;
             Debug.Log("You Win!");
+
+            
+            SceneManager.LoadScene(winSceneName);
         }
     }
 }
