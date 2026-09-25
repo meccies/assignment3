@@ -12,7 +12,7 @@ public class SceneLoader : MonoBehaviour
     }
     
     public void LoadAntonio(){
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("ObstacleCourse");
     }
     
 }
